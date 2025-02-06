@@ -10,6 +10,7 @@
         Student Id: 100948540
         Subject: Web development
         Description: Plants Data Table
+        Date: 05 feb 2025
          -->
     <style>
         table {
@@ -33,18 +34,22 @@
         }
     </style>
 </head>
-
+<!--starting page-->
 <body>
     <h1>Planets data </h1>
     <table>
+        <!--adding caption to describe the table-->
         <caption>Data about the planets of our solar system (planetary facts taken from <a
-                href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact sheet-Metric</a>).</caption>
+                href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact sheet-Metric</a>).
+        </caption>
+        <!--define column style using <colgroup>-->
         <colgroup>
             <col span="2">
             <col style="border: 2px solid black">
             <col span="9">
         </colgroup>
         <thead>
+            <!--creating table headers-->
             <tr>
                 <td colspan="2"></td>
                 <th scope="col">Name</th>
@@ -59,6 +64,8 @@
                 <th scope="col">Notes</th>
             </tr>
         </thead>
+        <!--using td tag-->
+        <!--using tbody tag body content of table-->
         <tbody>
             <tr>
                 <th rowspan="4" colspan="2" scope="rowgroup">Terrestrial Planets</th>
@@ -73,6 +80,7 @@
                 <td>0</td>
                 <td>Closest to the Sun</td>
             </tr>
+            <!--use th tag-->
             <tr>
                 <th scope="row">Venus</th>
                 <td>4.87</td>
@@ -160,6 +168,7 @@
                 <td>14</td>
                 <td></td>
             </tr>
+            <!--Grouping dwarf planets-->
             <tr>
                 <th colspan="2" scope="row">Dwarf planets</th>
                 <th scope="row">Pluto</th>
@@ -180,5 +189,5 @@
 
 
 </body>
-
+<!--ending page-->
 </html>
