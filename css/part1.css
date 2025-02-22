@@ -1,45 +1,55 @@
+/* Genereal Body styling */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid black;
+  margin: 15px;
+  padding: 25px;
+  align-items: center;
 }
 
+/* Main Heading */
 h1 {
-  color: #375e97;
+  color: hotpink;
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-bottom: 1px solid #375e97;
 }
 
+/* Subheading */
 h2 {
   font-size: 1.5em;
+  font-style: italic;
 }
 
+/* Job Title styling */
 .job-title {
   color: #999999;
   font-weight: bold;
 }
 
+/* Link Styling */
 a:link,
 a:visited {
   color: #fb6542;
 }
 
 a:hover {
+  color: green;
   text-decoration: none;
 }
 
-h1{
-    color: hotpink;
-    border-bottom: 10px dotted purple;
+ h1 {
+  color: hotpink; 
+  border-bottom: 10px dotted purple;
 }
-h2 {
-  font-style: italic;
-}
- ul.contact-details {
+ /* Unordered List styling */
+ul{
   background-color: #eeeeee;
   border: 5px solid purple;
-  padding: 10px;
- }
+  padding: 25px;
+}
 
- a:hover {
-  color: green;
- }
+/* Hover Effect for list links */
+li a:hover {
+ color: green;
+}
